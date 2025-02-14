@@ -1,0 +1,114 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\naser\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.13.1
+3 silly config load:file:C:\Users\naser\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\savannah-informatics-technical-assessment\frontend\.npmrc
+5 silly config load:file:C:\Users\naser\.npmrc
+6 silly config load:file:C:\Users\naser\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-scripts
+8 verbose argv "install" "react-scripts"
+9 verbose logfile logs-max:10 dir:C:\savannah-informatics-technical-assessment\frontend\Usersnasernpm-cache\_logs\2025-02-14T10_11_41_136Z-
+10 verbose logfile C:\savannah-informatics-technical-assessment\frontend\Usersnasernpm-cache\_logs\2025-02-14T10_11_41_136Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2144075776 maxSize:536018944 maxEntrySize:268009472
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react-scripts@*
+16 silly packumentCache full:https://registry.npmjs.org/react-scripts cache-miss
+17 http fetch GET https://registry.npmjs.org/react-scripts attempt 1 failed with ECONNRESET
+18 http fetch GET 200 https://registry.npmjs.org/react-scripts 49435ms attempt #2 (cache updated)
+19 silly packumentCache full:https://registry.npmjs.org/react-scripts set size:undefined disposed:false
+20 silly fetch manifest react@>= 16
+21 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/react 3114ms (cache updated)
+23 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+24 silly fetch manifest typescript@^3.2.1 || ^4
+25 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/typescript 5907ms (cache updated)
+27 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+28 silly placeDep ROOT react-scripts@5.0.1 REPLACE for:  want: *
+29 silly fetch manifest fsevents@^2.3.2
+30 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/fsevents 2227ms (cache updated)
+32 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+33 silly placeDep ROOT fsevents@2.3.3 OK for: react-scripts@5.0.1 want: ^2.3.2
+34 silly reify mark retired [
+34 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\node'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\oxide'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\postcss'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\cra-template'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\detect-libc',
+39 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc',
+39 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc.cmd',
+39 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc.ps1'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\lightningcss'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\lightningcss-win32-x64-msvc'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\react-dom'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\scheduler'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\tailwindcss'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\web-vitals'
+45 silly reify ]
+46 silly reify moves {
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\node': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\.node-2qmgtylS',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\oxide': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\.oxide-H6aZiuR9',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\oxide-win32-x64-msvc': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\.oxide-win32-x64-msvc-Hu0eFWhB',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\postcss': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\@tailwindcss\\.postcss-gmeCuylL',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\cra-template': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.cra-template-MB9QbLl5',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\detect-libc': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.detect-libc-19it7CG1',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\.detect-libc-McXPfyEm',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc.cmd': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\.detect-libc.cmd-3LPVxV6V',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\detect-libc.ps1': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.bin\\.detect-libc.ps1-IYAK01on',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\lightningcss': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.lightningcss-ZoPpDKos',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\lightningcss-win32-x64-msvc': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.lightningcss-win32-x64-msvc-QcXTOlFV',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\react-dom': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.react-dom-FfDzUQf0',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\scheduler': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.scheduler-AfnpZxVV',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\tailwindcss': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.tailwindcss-OiANFAKL',
+46 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\web-vitals': 'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\.web-vitals-Q8HLnDYa'
+46 silly reify }
+47 verbose reify failed optional dependency C:\savannah-informatics-technical-assessment\frontend\node_modules\fsevents
+48 silly reify mark deleted [
+48 silly reify   'C:\\savannah-informatics-technical-assessment\\frontend\\node_modules\\fsevents'
+48 silly reify ]
+49 silly ADD
+50 silly REMOVE node_modules/web-vitals
+51 silly REMOVE node_modules/tailwindcss
+52 silly REMOVE node_modules/scheduler
+53 silly REMOVE node_modules/react-dom
+54 silly REMOVE node_modules/lightningcss-win32-x64-msvc
+55 silly REMOVE node_modules/lightningcss
+56 silly REMOVE node_modules/detect-libc
+57 silly REMOVE node_modules/cra-template
+58 silly REMOVE node_modules/@tailwindcss/postcss
+59 silly REMOVE node_modules/@tailwindcss/oxide-win32-x64-msvc
+60 silly REMOVE node_modules/@tailwindcss/oxide
+61 silly REMOVE node_modules/@tailwindcss/node
+62 silly REMOVE node_modules/@tailwindcss/node/node_modules/jiti
+63 verbose cwd C:\savannah-informatics-technical-assessment\frontend
+64 verbose os Windows_NT 10.0.19045
+65 verbose node v22.13.1
+66 verbose npm  v11.1.0
+67 verbose exit 0
+68 info ok
