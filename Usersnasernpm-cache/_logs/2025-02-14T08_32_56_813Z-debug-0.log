@@ -9,3 +9,11 @@
 8 verbose argv "run" "build"
 9 verbose logfile logs-max:10 dir:C:\savannah-informatics-technical-assessment\frontend\Usersnasernpm-cache\_logs\2025-02-14T08_32_56_813Z-
 10 verbose logfile C:\savannah-informatics-technical-assessment\frontend\Usersnasernpm-cache\_logs\2025-02-14T08_32_56_813Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd C:\savannah-informatics-technical-assessment\frontend
+14 verbose os Windows_NT 10.0.19045
+15 verbose node v22.13.1
+16 verbose npm  v11.1.0
+17 verbose exit 1
+18 verbose code 1
